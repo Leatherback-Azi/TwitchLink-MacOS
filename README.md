@@ -28,7 +28,7 @@ TwitchLink of MacOS version.
 
 
 
-#### [TwitchLink.py](https://github.com/Leatherback-Azi/TwitchLink-MacOS/blob/main/TwitchLink.py)
+#### [/TwitchLink.py](https://github.com/Leatherback-Azi/TwitchLink-MacOS/blob/main/TwitchLink.py)
 ***
 ##### Function -
 
@@ -42,13 +42,13 @@ TwitchLink of MacOS version.
     - This function will be available at **next version**.
    
    
-#### [TwitchLinkConfig.py](https://github.com/Leatherback-Azi/TwitchLink-MacOS/blob/main/TwitchLinkConfig.py) 
+#### [/TwitchLinkConfig.py](https://github.com/Leatherback-Azi/TwitchLink-MacOS/blob/main/TwitchLinkConfig.py) 
 ***
 ##### Value -
 
 * **All of Directory** has been Changed compatible as **MacOS**
 
-#### [TwitchLink-MacOS/Auth/](https://github.com/Leatherback-Azi/TwitchLink-MacOS/tree/main/Auth)
+#### [/Auth/](https://github.com/Leatherback-Azi/TwitchLink-MacOS/tree/main/Auth)
 ***
 ##### Function -
 
@@ -58,7 +58,7 @@ TwitchLink of MacOS version.
     startupinfo.dwFlags |= subprocess.STARTF_USESHOWWINDOW    </code></pre>
 
 
-#### [Auth/TwitchUserAuthWebDriverLoader.py](https://github.com/Leatherback-Azi/TwitchLink-MacOS/blob/main/Auth/TwitchUserAuthWebDriverLoader.py)
+#### [/Auth/TwitchUserAuthWebDriverLoader.py](https://github.com/Leatherback-Azi/TwitchLink-MacOS/blob/main/Auth/TwitchUserAuthWebDriverLoader.py)
 ***
 ##### Top of code -
 
@@ -69,6 +69,21 @@ TwitchLink of MacOS version.
 
     webdriver.chrome.service.service.Service.start = Service.start
     webdriver.edge.service.service.Service.start = Service.start  </code></pre>
+    
+    
+#### [/resources/ui/](https://github.com/Leatherback-Azi/TwitchLink-MacOS/tree/main/resources/ui)
+***
+##### UI changes -
+
+- File below has been changed.
+    - search.ui, videoList.ui, downloadMenu.ui, search.ui, videoList.ui, videoFrame.ui
+
+
+#### [/resources/dependencies/ffmpeg](https://github.com/Leatherback-Azi/TwitchLink-MacOS/blob/main/resources/dependencies/ffmpeg)
+***
+##### File changes -
+- "ffmpeg.exe" has been changed to "ffmpeg"(Unix Excutable File)
+    - Reason : MacOS dosen't Support **.exe** formet.
     
     
 #### Auth/TwitchUserAuthSeleniumService.py
