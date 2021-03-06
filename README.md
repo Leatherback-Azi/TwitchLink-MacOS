@@ -46,7 +46,7 @@ TwitchLink of MacOS version.
 ***
 ##### Value -
 
-* **All of Directory** has been Changed compatible as **MacOS**
+* **All of Directory** has been Changed compatible with **MacOS**
 
 #### [/Auth/](https://github.com/Leatherback-Azi/TwitchLink-MacOS/tree/main/Auth)
 ***
