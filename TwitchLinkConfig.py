@@ -9,7 +9,7 @@ class Config:
     PROGRAM_PATH = sys.executable.replace("\\", "/")
     PROGRAM_MAIN_PATH = os.path.abspath(__file__)
 
-    VERSION = "1.0.1"
+    VERSION = "1.0.0"
 
     DB_COMPATIBLE_VERSIONS = ["1.0.0"]
 

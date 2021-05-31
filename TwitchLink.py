@@ -1,7 +1,5 @@
-import os
 import sys
 import gc
-import subprocess
 
 from PyQt5.QtCore import QLibraryInfo, QTranslator, QUrl, QThread, pyqtSignal
 from PyQt5.QtGui import QIcon, QDesktopServices
@@ -21,7 +19,6 @@ class TwitchLink(QMainWindow, UiFiles.mainWindow):
         super().__init__()
         self.app = app
 
-        # NOT COMPATIBLE WITH MACOS
         self.db = DataBase()
 
         self.loadTranslators()
@@ -73,7 +70,7 @@ class TwitchLink(QMainWindow, UiFiles.mainWindow):
 
 # ** Important! **
 
-# DO NOT USE THIS FUNC AT MACOS! (ln.78, TwitchLink.py)
+# DO NOT USE THIS FUNC AT MACOS! (ln.77, TwitchLink.py)
 # func 'checkStatus' below is for 'WINDOWS OS ONLY'
     def checkStatus(self):
         status = self.db.programStatus
@@ -157,12 +154,8 @@ class TwitchLink(QMainWindow, UiFiles.mainWindow):
 
     '''
     def openNewDownloader(self):
-        #os.startfile(Config.PROGRAM_PATH)
-        if sys.platform == "win32":
-            os.startfile(Config.PROGRAM_PATH)
-        else:
-            opener = "python3" if sys.platform == "darwin" else "xdg-open"
-            subprocess.call([Config.PROGRAM_PATH, Config.PROGRAM_MAIN_PATH])
+        print('NEW DOWNLOADER CALL')
+        subprocess.call([Config.PROGRAM_PATH, Config.PROGRAM_MAIN_PATH])
     '''
 
     def openSettings(self):
@@ -199,7 +192,7 @@ class TwitchLink(QMainWindow, UiFiles.mainWindow):
     def startMainMenu(self):
         self.MainMenu = self.ui.MainMenu()
         self.setWindow(self.MainMenu)
-        self.menuSearch.setEnabled(True)
+        # self.menuSearch.setEnabled(True)
         self.mainMenuLoading(False)
 
     def startSearch(self, mode):
@@ -277,7 +270,7 @@ class TwitchLink(QMainWindow, UiFiles.mainWindow):
     def startDownload(self):
         self.Download = self.ui.Download()
         self.setWindow(self.Download)
-        self.menuSearch.setEnabled(False)
+        # self.menuSearch.setEnabled(False)
 
 class OnStart(QThread):
     signal = pyqtSignal()
