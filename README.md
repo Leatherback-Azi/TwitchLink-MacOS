@@ -33,7 +33,7 @@ TwitchLink of MacOS version.
 ***
 ##### Function -
 
-- **[checkStatus](https://github.com/Leatherback-Azi/TwitchLink-MacOS/blob/main/TwitchLink.py#L78)** in class **TwitchLink**
+- **[checkStatus, setupmenubar](https://github.com/Leatherback-Azi/TwitchLink-MacOS/blob/main/TwitchLink.py#L78)** in class **TwitchLink**
 
     - [Auto Update Check](https://github.com/Leatherback-Azi/TwitchLink-MacOS/blob/main/TwitchLink.py#L105) disabled.
 
