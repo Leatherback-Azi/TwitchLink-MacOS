@@ -61,7 +61,6 @@ Korean Explaination - https://support.apple.com/ko-kr/guide/mac-help/mh40616/mac
 - **NewDownlaoder** has been **disabled**
 
   - Reason : Function **os.startfile dosen't support MacOS.**
-  - This function will be available at **next version**.
 
   
 
