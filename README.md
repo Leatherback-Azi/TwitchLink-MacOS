@@ -14,7 +14,7 @@ TwitchLink of MacOS version.
 - **[OS X](https://en.wikipedia.org/wiki/MacOS)** or Higher (macOS)
 - **[Chrome](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjQhO3jtp_vAhVSHaYKHVL2CfkQFjAAegQIBBAE&url=https%3A%2F%2Fwww.google.com%2Fintl%2Fko%2Fchrome%2F&usg=AOvVaw13CftYisc_84G1d2VQFf-w)** Web browser
 - Release file is for __Intel Mac__. Apple Silicon Mac can run this program with **[Rosetta2](https://support.apple.com/en-us/HT211861)**
-- **[Download](https://github.com/Leatherback-Azi/TwitchLink-MacOS/releases)
+- **[Download](https://github.com/Leatherback-Azi/TwitchLink-MacOS/releases)**
 
 # How To Open?
 
